@@ -1,0 +1,54 @@
+/* Style for a minimalistic form */
+h2 {
+  font-size: 1.5rem; /* Ukuran font judul */
+  text-align: center; /* Pusatkan teks */
+  color: #7a573c; /* Warna judul */
+  margin-bottom: 15px; /* Jarak bawah judul */
+}
+form {
+  width: 300px; /* Atur lebar formulir menjadi lebih kecil */
+  margin: 20px auto; /* Pusatkan formulir di halaman */
+  padding: 15px; /* Kurangi padding untuk tampilan minimalis */
+  background-color: #fff;
+  border: 2px solid #d4af37;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 90%; /* Kurangi lebar elemen input */
+  padding: 8px; /* Kurangi padding */
+  margin-bottom: 10px; /* Kurangi margin bawah */
+  border: 1px solid #d4af37;
+  border-radius: 4px;
+  font-family: "Georgia", serif;
+  font-size: 12px; /* Kurangi ukuran font */
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+button {
+  width: 90%; /* Sesuaikan lebar tombol */
+  padding: 8px; /* Kurangi padding */
+  background-color: #d4af37;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px; /* Kurangi ukuran font */
+  color: #fff;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+}
+
+textarea {
+  height: 80px; /* Kurangi tinggi textarea */
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6b4226;
+}

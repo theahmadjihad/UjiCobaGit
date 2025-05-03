@@ -10,21 +10,25 @@ form {
   margin: 20px auto; /* Pusatkan formulir di halaman */
   padding: 15px; /* Kurangi padding untuk tampilan minimalis */
   background-color: #fff;
-  border: 2px solid #d4af37;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d4af37; /* Warna border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+.keterangan {
+  font-size: x-small; /* Ukuran font keterangan */
+  color: #7d451f; /* Warna keterangan */
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
+input[type="text"], /* Jenis input teks */
+input[type="email"], /* Jenis input teks dan email */
+input[type="password"], /* Jenis input teks, email, dan password */
 textarea,
 select {
   width: 90%; /* Kurangi lebar elemen input */
   padding: 8px; /* Kurangi padding */
   margin-bottom: 10px; /* Kurangi margin bawah */
   border: 1px solid #d4af37;
-  border-radius: 4px;
-  font-family: "Georgia", serif;
+  border-radius: 4px; /* Sudut membulat */
+  font-family: "Georgia", serif; /* Ubah jenis Font */
   font-size: 12px; /* Kurangi ukuran font */
   background-color: #fdf6e3;
   color: #333;
@@ -35,11 +39,11 @@ button {
   padding: 8px; /* Kurangi padding */
   background-color: #d4af37;
   border: none;
-  border-radius: 4px;
+  border-radius: 4px; /* Sudut membulat */
   font-size: 14px; /* Kurangi ukuran font */
   color: #fff;
-  cursor: pointer;
-  font-family: "Georgia", serif;
+  cursor: pointer; /* Kursor pointer saat hover */
+  font-family: "Georgia", serif; /* Ubah jenis Font */
 }
 
 textarea {
@@ -48,7 +52,7 @@ textarea {
 
 footer {
   text-align: center;
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 10px; /* Jarak atas footer */
+  font-size: 12px; /* Ukuran font footer */
   color: #6b4226;
 }
